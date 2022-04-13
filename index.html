@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap&_v=20220413141836"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>To do list</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main>
+			<div class="page _container">
+				<div class="page__header header-page">
+					<div class="header-page__logo">To-do List</div>
+					<form class="header-page__form" onsubmit="return false">
+						<div class="header-page__input">
+							<input name="textInput" type="text" placeholder="I need to..." autocomplete="off">
+						</div>
+						<div class="header-page__button">
+							<button type="button" name="button">Note</button>
+						</div>
+					</form>
+				</div>
+				<div class="page__items"></div>
+			</div>
+		</main>
+	</div>
+	<script src="js/script.min.js"></script>
+</body>
+
+</html>
